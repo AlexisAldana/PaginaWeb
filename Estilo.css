@@ -1,0 +1,238 @@
+					*{
+						Margin:0;
+						padding:0;
+						list-style:none;
+						font-family: times new roman;					
+					}
+
+		header{
+				position:relative;
+				margin:20px auto;
+				width:1000px;
+				height:120px;
+				}
+		#logo{
+				position: absolute;
+				top:30px;
+				left:30px;
+				bottom:0;
+				right:0;
+				width: 200px;
+				height: 60px;
+				font-family: 'Dancing Script', cursive;
+				font-size: 50px;
+				text-align: center;
+				line-height: 60px;
+			}
+
+		.redes{
+				position: absolute;
+				width: 42px;
+				height: 42px;
+				background:#888;
+				border-radius: 100%;
+				text-align: center;
+				line-height: 42px;
+				color: white;	
+
+			}
+
+		#icon1{
+				top:42px;
+				right: 120px;
+				background: rgb(255, 49, 227, 0.7);
+
+			}
+		#icon2{
+				top:42px;
+				right: 71px;
+				background: rgb(0, 12, 255,0.7);
+				
+			}
+		#icon3{
+				top:42px;
+				right: 19px;
+				background: rgb(21, 211, 197,0.9);
+				
+			}
+
+		nav{
+				position:relative;
+				margin:auto;
+				width:1000px;
+				height:48px;
+				}
+
+		.botones{
+			float:left;
+			width:196px;
+			margin:6px 2px;
+			height:48px;
+			background: rgb(0, 50, 255,0.9);
+			font-family: 'Dancing Script', cursive;
+			color: rgb(23, 255, 0,1);
+			text-align: center;
+			line-height: 48px;
+
+				}
+
+		#top{
+				position:relative;
+				margin:20px auto;
+				width:1000px;
+				height:192px;
+				
+				}
+		#top ul{
+			width:1010px;
+				height:192px;
+		}
+		#top ul li{
+			float:left;
+			width:326px;
+			height: 192px;
+			margin-right: 10px;
+			text-align: center;
+
+		}
+		#top ul li img{
+				border-radius: 100%;
+				height: 100px;
+					}
+			
+			#top ul li h1{
+					font-family: 'Dancing Script', cursive;
+			}
+			#top ul li p{
+					font-size: 14px;
+					margin: 10px;
+			}
+
+		section{
+				position:relative;
+				margin:auto;
+				width:1000px;
+				height:450px;
+				}
+
+		aside#izq{
+				position: absolute;
+				top:0px;
+				left:0px;
+				width: 200px;
+				height: 450px;				
+					}
+					aside#izq ul li{
+						background: rgb(198,99,0,0.7);
+						padding: 10px;
+						margin: 2px 10px;
+						color: blue;
+						list-style: square;
+						list-style-position: inside;
+						list-style-image: url(MG/lista.png);
+
+					}
+					aside#izq ul li a{
+						text-decoration: none;
+				    }
+		article{
+				position: absolute;
+				top:0;
+				left:200px;
+				width: 600px;
+				height: 450px;
+				}
+				article h1{
+						font-family: 'Dancing Script', cursive;
+						font-size: 40px;
+						margin: 20px;
+					}
+				article p img{
+					float: left;
+					margin-right: 20px;
+				}
+				article p{
+					margin:5px 20px;
+					font-size: 14px;
+					text-align:justify;
+				}
+
+		aside#der{
+				position: absolute;
+				top:0px;
+				right:0px;
+				width: 200px;
+				height: 450px;
+				color: red;
+					}
+		aside#der imput{
+			padding: 20px;
+			margin: 5px 0px;
+		}
+
+		aside#der h1{
+				width: 200px;
+		        height: 50px;
+			    line-height: 50px;
+			    text-align: center;
+			    background: rgb(255, 50, 0,1);
+			    color: white;
+			    margin-bottom: 5px;
+			    }
+		aside#der input{
+			padding: 10px;
+			margin: 5px 0px;
+			width: 175px;
+		}	
+		aside#der input[type="text"]{
+			background: url(MG/usuario.png);
+		    background-repeat: no-repeat;
+		    background-position: right;
+
+		} 
+		aside#der input[type="password"]{
+			background: url(MG/clave.png);
+		    background-repeat: no-repeat;
+		    background-position: right;
+
+		} 
+		aside#der input[type="Email"]{
+			background: url(MG/correo.png);
+		    background-repeat: no-repeat;
+		    background-position: right;
+
+		}    
+		aside#der input[type="submit"]{
+            width: 200px;
+            border-radius:1px;
+            background: rgb(211, 59, 94,0.5);
+		}  
+
+		footer{
+				position:relative;
+				margin:20px auto;
+				width:1000px;
+				height:70px;
+				background:cornflowerblue;
+				text-align: center;
+				line-height: 70px;
+				color: red;
+				}
+   #chat{
+         	position: fixed;
+        	bottom: 0px;
+        	right: 20px;
+        	width: 250px;
+        	height: 40px;
+   	        background: rgb(255, 0, 0,0.9);
+   	        z-index: 1;
+   	        color: black;
+   	        text-align: center;
+   	        line-height: 40px;
+   	        font-family: 'Dancing Script', cursive;
+   	        font-size: 20px;
+   	        border-radius: 20px 20px 0 0;
+   	        cursor: pointer;
+
+
+   }
